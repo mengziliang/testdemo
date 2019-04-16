@@ -5,6 +5,7 @@ import store from './store'
 import '@babel/polyfill'
 
 Vue.config.productionTip = false
+console.log(process.env.NODE_ENV)
 
 new Vue({
   router,

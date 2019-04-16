@@ -43,7 +43,7 @@ module.exports = {
     port: 8000, // 端口
     https: false, // false关闭https，true为开启
     open: true, // 自动打开浏览器
-    proxy: {}
+    proxy: null
   },
   pluginOptions: { // 第三方插件配置
     // ...
